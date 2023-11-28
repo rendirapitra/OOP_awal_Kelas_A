@@ -23,10 +23,10 @@ class mahasiswa {
   function get_nim() {
     return $this->nim;
   }
-  function get_matkul() {
+  protected function get_matkul() {
   	return $this->matkul;
   }
-  function get_cita_cita() {
+  protected function get_cita_cita() {
   	return $this->cita_cita;
   }
   function __destruct() {
